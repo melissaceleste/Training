@@ -9,6 +9,7 @@ body {
   font-size: 112.5%;
   line-height: 1.5;
   margin: 0;
+  width: 100%;
 }
 
 h1,
@@ -18,7 +19,98 @@ h3 {
   margin: 0;
 }
 
-input,
-button {
-  font-size: 1em;
+.main {
+  display: grid;
+  grid-template-columns: 25%, 25%, 25%, 25%;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  overflow-y: sc;
+}
+
+.HomePageSection1 {
+  background-color: pink;
+}
+
+.HomePageSection2 {
+  background-color: plum;
+}
+
+.HomePageSection3 {
+  background-color: cornflowerblue;
+}
+
+.HomePageSection4 {
+  background-color: olive;
+}
+
+.Page1Section1 {
+  background-color: ivory;
+}
+
+.Page1Section2 {
+  background-color: lightgray;
+}
+
+.Page1Section3 {
+  background-color: gray;
+}
+
+.Page1Section4 {
+  background-color: darkgray;
+}
+
+.NavBar__Container {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 1px 2px lightgray;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+}
+
+.NavBarButton1 {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 2px white;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/hogwarts.png');
+  background-size: cover;
+}
+
+.NavBarButton2 {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 2px white;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/icon.png');
+  background-size: cover;
+}
+
+.NavBarButton3 {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 2px white;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/wand.png');
+  background-size: cover;
+}
+
+.NavBarButton4 {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 2px white;
+  width: 50px;
+  height: 50px;
+  background-image: url('../assets/wand2.png');
+  background-size: cover;
+}
+
+.hidden {
+  display: none !important;
 }
